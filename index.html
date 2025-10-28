@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE GLOW - Premium Skincare Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>LUXE GLOW</h1>
+            </div>
+            <div class="nav-center">
+                <div class="brand-selector">
+                    <select id="brandSelector" class="brand-dropdown">
+                        <option value="luxe-glow">LUXE GLOW</option>
+                        <option value="radiance-pro">RADIANCE PRO</option>
+                        <option value="golden-essence">GOLDEN ESSENCE</option>
+                        <option value="pure-botanics">PURE BOTANICS</option>
+                        <option value="diamond-skin">DIAMOND SKIN</option>
+                        <option value="celestial-beauty">CELESTIAL BEAUTY</option>
+                    </select>
+                </div>
+            </div>
+            <div class="nav-controls">
+                <div class="theme-controls">
+                    <button id="themeToggle" class="theme-btn" title="Toggle Dark/Light Mode">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <div class="color-palette">
+                        <button class="color-btn" data-theme="rose-gold" style="background: linear-gradient(45deg, #E8B4B8, #D4AF37)"></button>
+                        <button class="color-btn" data-theme="ocean-blue" style="background: linear-gradient(45deg, #4A90E2, #7B68EE)"></button>
+                        <button class="color-btn" data-theme="emerald-green" style="background: linear-gradient(45deg, #50C878, #98FB98)"></button>
+                        <button class="color-btn" data-theme="sunset-orange" style="background: linear-gradient(45deg, #FF6B6B, #FFE66D)"></button>
+                        <button class="color-btn" data-theme="royal-purple" style="background: linear-gradient(45deg, #6B46C1, #EC4899)"></button>
+                        <button class="color-btn" data-theme="midnight-black" style="background: linear-gradient(45deg, #2C2C2C, #4A4A4A)"></button>
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <a href="#products">Products</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="text-section">
+                    <div class="badge" id="brandBadge">NEW COLLECTION</div>
+                    <h2 class="hero-title" id="heroTitle">
+                        <span class="title-line" id="titleLine1">Radiant</span>
+                        <span class="title-line highlight" id="titleLine2">Perfection</span>
+                        <span class="title-line" id="titleLine3">Serum</span>
+                    </h2>
+                    <p class="hero-description" id="heroDescription">
+                        Experience the ultimate luxury in skincare with our revolutionary 
+                        anti-aging serum. Infused with 24K gold particles and rare botanical 
+                        extracts for unparalleled radiance.
+                    </p>
+                    <div class="hero-features" id="heroFeatures">
+                        <div class="feature">
+                            <span class="feature-icon">✨</span>
+                            <span id="feature1">24K Gold Infusion</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🌿</span>
+                            <span id="feature2">Botanical Extracts</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">💎</span>
+                            <span id="feature3">Diamond Peptides</span>
+                        </div>
+                    </div>
+                    <div class="cta-section">
+                        <button class="cta-primary">Shop Now</button>
+                        <button class="cta-secondary">Learn More</button>
+                    </div>
+                    <div class="price-section">
+                        <span class="price" id="productPrice">$299</span>
+                        <span class="price-label" id="priceLabel">30ml Premium Serum</span>
+                    </div>
+                </div>
+
+                <div class="product-section">
+                    <div class="spotlight"></div>
+                    <div class="glossy-surface"></div>
+                    <div class="product-container">
+                        <div class="product-bottle">
+                            <div class="bottle-glow"></div>
+                            <div class="bottle-reflection"></div>
+                            <div class="bottle-shine"></div>
+                            <div class="bottle-content">
+                                <div class="bottle-label">
+                                    <div class="brand-name" id="bottleBrandName">LUXE GLOW</div>
+                                    <div class="product-name" id="bottleProductName">RADIANT SERUM</div>
+                                    <div class="product-volume" id="bottleVolume">30ML</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-particles">
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                            <div class="particle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-large">🧬</div>
+                    <h3>Advanced Formula</h3>
+                    <p>Scientifically proven ingredients that penetrate deep into skin layers</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">⏰</div>
+                    <h3>Instant Results</h3>
+                    <p>Visible improvement in skin texture and radiance within 7 days</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">🌟</div>
+                    <h3>Luxury Experience</h3>
+                    <p>Premium packaging and silky smooth application for ultimate indulgence</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"This serum transformed my skin completely. The glow is incredible!"</p>
+                    <div class="customer">- Sarah M., Beauty Editor</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Worth every penny. My skin has never looked better at 45."</p>
+                    <div class="customer">- Jennifer K., Entrepreneur</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The luxury packaging and results exceeded all my expectations."</p>
+                    <div class="customer">- Maria L., Influencer</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>LUXE GLOW</h3>
+                    <p>Redefining luxury skincare</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Products</h4>
+                        <a href="#">Serums</a>
+                        <a href="#">Moisturizers</a>
+                        <a href="#">Cleansers</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Support</h4>
+                        <a href="#">Contact</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Returns</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
